@@ -4,7 +4,7 @@
 A library of React components created using `create-react-app`.
 
 ## Link npm
-https://www.npmjs.com/package/p14-plugin
+https://www.npmjs.com/package/p14_modal_plugin
 ## Installation
 Run the following command:
 `npm i p14_modal_plugin`
