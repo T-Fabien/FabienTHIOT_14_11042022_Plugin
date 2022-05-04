@@ -13,6 +13,7 @@ export const App = () => {
         setShow={setModalIsOpen}
         title="Success !"
         text="The new employee has been created"
+        btn="Save"
         image={modal_img}
       />
     </>
