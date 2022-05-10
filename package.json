@@ -1,6 +1,6 @@
 {
-  "name": "p14_modal_plugin",
-  "version": "0.1.1",
+  "name": "p14_modal",
+  "version": "1.0.1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
@@ -49,6 +49,6 @@
   "files": [ "dist", "README.md" ], 
   "repository": { 
     "type": " git", 
-    "url": "https://github.com/T-Fabien/FabienTHIOT_14_11042022_Plugin" 
+    "url": "https://github.com/T-Fabien/FabienTHIOT_14_11042022_Plugin/" 
   }
 }

@@ -1,16 +1,15 @@
 import React from 'react';
 import './Modal.css';
 
-export default function Modal(props) {
-  const { setModalIsOpen } = props;
+export const Modal = ({ show, setShow, title, text, image, btn}) => {
   return (
-    props.show && (
+    show && (
       <div className="modal">
-        <img src={props.img} alt="" />
-        <h2>{props.title}</h2>
-        <p>{props.text}</p>
-        <button onClick={() => setModalIsOpen(false)}>Close</button>
+        {image && <img src={image} alt="" />}
+        <h2>{title}</h2>
+        <p>{text}</p>
+        <button onClick={() => setShow(false)}>{btn}</button>
       </div>
     )
-  )
-}
+  );
+};
